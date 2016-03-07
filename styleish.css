@@ -227,6 +227,7 @@ form.aui.top-label .field-group>label {
 
 .aui-icon {
   filter: brightness(175%);
+  -webkit-filter: brightness(175%);
 }
 
 .tempo-stalker-content .stalker-content .issue-header-content {
