@@ -1,5 +1,5 @@
 body, table, navigator-body {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
   background: #111 !important;
 }
 
@@ -148,7 +148,7 @@ tr.rowHeader th a {
 }
 
 #issue-comment-add #comment {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
   background-color: #333 !important;
 }
 
@@ -176,7 +176,7 @@ tr.rowHeader th a {
 
 .issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
   background-color: #333 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .issue-body-content .module > .mod-header .ops {
@@ -185,7 +185,7 @@ tr.rowHeader th a {
 
 .editable-field:hover, .ghx-editable:hover {
   background-color: #333 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
   box-shadow: 0 0 0 1px #666;
 }
 
@@ -195,7 +195,7 @@ tr.rowHeader th a {
 }
 
 form.aui.top-label .field-group>label {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .aui-nav-breadcrumbs>li.aui-nav-selected a, .aui-nav-breadcrumbs>li:last-child:not(:first-child) a {
@@ -208,7 +208,7 @@ form.aui.top-label .field-group>label {
   background: -o-linear-gradient(top,#444 0,#555 100%);
   background: linear-gradient(to bottom,#444 0,#555 100%);
   text-shadow: 0 1px 0 black;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover {
@@ -250,15 +250,6 @@ form.aui.top-label .field-group>label {
 
 .content-container, .tempo-timesheet #issuetable {
   background: #222 !important;
-}
-
-#issuetable > tbody > tr:hover, .issue-table > tbody > tr:hover {
-  background-color: #444 !important;
-  background: #444 !important;
-}
-
-#issuetable > tbody > tr, .issue-table > tbody > tr, #issuetable > tfoot > tr, .issue-table > tfoot > tr {
-  color: #999;
 }
 
 .tempo-timesheet #issuetable .tt-right-border, .tempo-calendar #issuetable .tt-right-border {
@@ -324,7 +315,7 @@ form.aui.top-label .field-group>label {
 
 .ajs-layer-placeholder {
   background-color: #444 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .tabwrap>ul.tabs>li a, .tabwrap>ul.tabs>li a:link, .tabwrap>ul.tabs>li a:visited {
@@ -332,7 +323,7 @@ form.aui.top-label .field-group>label {
   background: -webkit-linear-gradient(top,#444 0,#555 100%);
   background: -o-linear-gradient(top,#444 0,#555 100%);
   background: linear-gradient(to bottom,#444 0,#555 100%);
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .tabwrap > .tabs.horizontal > li.active > a, .tabwrap > .tabs.horizontal > li.active > strong {
@@ -340,34 +331,34 @@ form.aui.top-label .field-group>label {
   background: -webkit-linear-gradient(top,#555 0,#444 100%);
   background: -o-linear-gradient(top,#555 0,#444 100%);
   background: linear-gradient(to bottom,#555 0,#444 100%);
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .activity-item-description blockquote {
   background-color: #444 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .activity-item-description .user-content {
   background-color: #444 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .twixi-block .verbose .flooded, .toggle-wrap .verbose .flooded p {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .user-content-block p {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .property-list strong {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 pre, code {
   background-color: #444 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .aui-page-panel {
@@ -383,15 +374,15 @@ body, table {
 }
 
 #content>header h1, #content>header h2 {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .wiki-syntax-examples p {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .dashboard-item-header {
@@ -405,13 +396,29 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 .tabwrap > .tabs.horizontal > li {
   background-color: transparent;
 }
-
-#issuetable > tbody > tr, .issue-table > tbody > tr, #issuetable > tfoot > tr, .issue-table > tfoot > tr {
-  background-color: transparent;
+#issuetable, .issue-table, #issuetable > tbody, .issue-table > tbody {
+  background: #222 !important;
+  background-color #222 !important;
 }
 
-#issuetable > tbody > tr:hover, .issue-table > tbody > tr:hover {
-  background-color: #333;
+#issuetable > tbody > tr, .issue-table > tbody > tr {
+  background-color: #222;
+  color: #ccc;
+}
+
+#issuetable > tbody > .issuerow:hover, .issue-table > tbody > .issuerow:hover {
+  background-color: #444 !important;
+  background: #444 !important;
+}
+.worklogs-module.clear span.edit-container:hover {
+  background: inherit !important;
+}
+.worklogs-module.clear tr.issuerow:hover td {
+  background-color:#333;
+}
+.worklogs-module.clear span.tempo-inline-edit:hover {
+  background: #3f3f3f !important;
+  border: 1px solid #888 !important;
 }
 
 /** All the various borders and horizontal rules **/
@@ -466,11 +473,11 @@ form.aui .password, form.aui .textarea, form.aui .select, form.aui .multi-select
 
 .aui-navgroup-horizontal .aui-nav>.aui-nav-selected a, .aui-navgroup-vertical .aui-nav .aui-nav-selected a, .aui-nav-vertical .aui-nav .aui-nav-selected a {
   background-color: #393939 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 h1, h2, h3, h4, h5 {
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .panelContent {
@@ -483,7 +490,7 @@ h1, h2, h3, h4, h5 {
 
 .editable-field form.aui .field-group .aui-ss, .editable-field form.aui .field-group .jira-multi-select, .editable-field form.aui .field-group .group, .editable-field form.aui .field-group input[type=text], .editable-field form.aui .field-group select, .editable-field form.aui .field-group textarea, .editable-field form.aui .field-group .text, .tempo-comment, .text, .textarea, .select2-input, textarea {
   background-color: #333 !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .select2-search input.select2-input {
@@ -569,7 +576,7 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
 }
 
 .ghx-detail-issue {
-  color: #dad9c2;
+  color: #ccc;
 }
 
 .ghx-detail-section .ghx-header h3 {
@@ -583,7 +590,7 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
 
 .filter-list>li .filter-link:active, .filter-list>li .filter-link.active, .filter-list>li .filter-link:focus {
   background-color: #3F3F3F !important;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 #footer-logo {
@@ -602,7 +609,7 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
 .pika-single {
   background: #222;
   border: 1px solid #555;
-  color: #DAD9C2 !important;
+  color: #ccc !important;
 }
 
 .pika-label {
@@ -653,12 +660,84 @@ nav.aui-header {
   border-width: 0 0;
 }
 
-.aui-select2-drop.select2-drop-above.select2-drop-active {
+.aui-select2-drop.select2-drop-above.select2-drop-active, ._sidebar__filter_selector___3-jqO {
   background: #222;
+  border-color: #444;
 }
 
 .aui-dropdown2.aui-style-default .active {
   background-color: #555;
 }
 
+.wiki-edit-toolbar {
+  background-color: #333;
+}
+.hint-container kbd {
+  background-color: #444;
+  color: #ccc;
+  border: 1px solid #666;
+  box-shadow: none;
+}
 
+.jira-icon-button {
+  -webkit-filter: grayscale(100%) brightness(25%);
+  filter: grayscale(100%) brightness(75%);
+}
+.ghx-controls-filters dd a:hover {
+  border-color: #555;
+}
+
+.ghx-controls-filters dd a.ghx-active {
+  background: #888;
+}
+.ghx-controls-filters dd a.ghx-active:hover {
+  background: #999;
+  border-color: inherit;
+}
+.subnav-trigger.aui-button.aui-dropdown2-trigger, span.subnav-trigger {
+  color: #ccc !important;
+}
+._header__wc_header___2klhy, ._sidebar__sidebar_wrapper___6zaAl {
+  background-color: #222;
+}
+._canvas__canvas_header_wrapper___1GbhN {
+  background-color: #2c2c2c;
+  box-shadow: none;
+}
+._canvas__day_today___3nlwC {
+  background-color: #393939;
+  box-shadow: none;
+}
+._canvas__day_header_content___ZXn3- {
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+}
+._canvas__days_wrapper___2Gemc, ._sidebar__select_container___3gYfy {
+  background-color: #222;
+}
+._canvas__day___2uUPt {
+  background-color: #333;
+  border-right: 1px solid #555;
+}
+._canvas__day___2uUPt:hover ._canvas__add_worklog_button___1cQWx {
+  background: #555;
+}
+._canvas__add_worklog_button___1cQWx:hover {
+  background-color: #666 !important;
+}
+._sidebar__bucket_item___15roY {
+  background: #333;
+  border-color: #444;
+}
+._sidebar__bucket_item___15roY:hover {
+  border-color: #555;
+  background-color: #3a3a3a;
+}
+._canvas__add_worklog_button___1cQWx {
+  color: #ccc;
+}
+._sidebar__sidebar_toggle___HRSD5 {
+  background: #3a3a3a;
+  border-top: 1px solid #555;
+  box-shadow: none;
+}
