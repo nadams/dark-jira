@@ -733,7 +733,7 @@ nav.aui-header {
 }
 
 .aui-header a:hover, .aui-header a:focus, .aui-header .aui-dropdown2-trigger:hover, .aui-header .aui-dropdown2-trigger:focus, .aui-header .aui-dropdown2-trigger.active {
-  background-color: #333;
+  background-color: #222;
 }
 
 .aui-header .aui-button.aui-button-primary.aui-style {
@@ -850,4 +850,7 @@ nav.aui-header {
 }
 .aui-header .aui-quicksearch input[type="text"][type="text"]:focus {
   background: #111;
+}
+.aui-style-default .aui-dropdown2-section + .aui-dropdown2-section {
+  border-top: 1px solid #666;
 }
