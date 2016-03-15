@@ -854,3 +854,6 @@ nav.aui-header {
 .aui-style-default .aui-dropdown2-section + .aui-dropdown2-section {
   border-top: 1px solid #666;
 }
+.alertHeader {
+	display: none;
+}
