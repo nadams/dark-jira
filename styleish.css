@@ -487,7 +487,7 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
 }
 #issuetable, .issue-table, #issuetable > tbody, .issue-table > tbody {
   background: #222 !important;
-  background-color #222 !important;
+  background-color: #222 !important;
 }
 
 #issuetable > tbody > tr, .issue-table > tbody > tr {
