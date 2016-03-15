@@ -744,7 +744,7 @@ nav.aui-header {
   background-color: #999;
 }
   
-.aui-button.ghx-dropdown-trigger::after, .aui-buttons .aui-button.aui-button-primary.ghx-dropdown-trigger::after {
+.aui-button.ghx-dropdown-trigger::after, .aui-buttons .aui-button.aui-button-primary.ghx-dropdown-trigger::after, .aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
 	border-top-color: #888;
 }
 
