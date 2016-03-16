@@ -65,7 +65,6 @@ tr.rowHeader th a {
 }
 
 .panelContent {
-  color: #ccc !important;
   background: #efefef !important;
   border: 1px solid #333 !important;
 }
@@ -217,7 +216,7 @@ form.aui.top-label .field-group>label {
   color: #ccc !important;
 }
 
-.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover, .aui-button, a.aui-button, .aui-button:visited, .aui-button:active, .aui-button.active, .aui-header .aui-button-split-more.active, .aui-button-subtle.aui-button:active, .aui-button-subtle.aui-button.active, .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle.active {
+.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover, .aui-button, a.aui-button, .aui-button:visited, .aui-button:active, .aui-button.active, .aui-header .aui-button-split-more.active, .aui-button-subtle.aui-button:active, .aui-button-subtle.aui-button.active, .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle.active, .operations > li a {
   border: 1px solid #555;
   border-color: #555;
   background: #333;
@@ -225,13 +224,13 @@ form.aui.top-label .field-group>label {
   color: #ccc !important;
 }
   
-.aui-button[aria-pressed="true"], .aui-buttons .aui-button[aria-pressed="true"], .aui-buttons .aui-button.aui-button-primary[aria-pressed="true"], .aui-buttons .aui-button.aui-button-subtle[aria-pressed="true"] {
+.aui-button[aria-pressed="true"], .aui-buttons .aui-button[aria-pressed="true"], .aui-buttons .aui-button.aui-button-primary[aria-pressed="true"], .aui-buttons .aui-button.aui-button-subtle[aria-pressed="true"], .operations > li a:hover {
   background: -webkit-linear-gradient(top,#111 0,#222 100%);
   background: -o-linear-gradient(top,#111 0,#222 100%);
   background: linear-gradient(to bottom,#111 0,#222 100%);
 }
   
-.aui-button:focus, .aui-button:hover, .aui-button-subtle.aui-button:focus, .aui-button-subtle.aui-button:hover, .aui-buttons .aui-button:focus:not(.aui-button-primary), .aui-buttons .aui-button:hover:not(.aui-button-primary), .aui-buttons .aui-button:active:not(.aui-button-primary) {
+.aui-button:focus, .aui-button:hover, .aui-button-subtle.aui-button:focus, .aui-button-subtle.aui-button:hover, .aui-buttons .aui-button:focus:not(.aui-button-primary), .aui-buttons .aui-button:hover:not(.aui-button-primary), .aui-buttons .aui-button:active:not(.aui-button-primary), .operations > li a {
   background: #444;
   background-color: #444;
   color: inherit !important;
@@ -366,7 +365,7 @@ form.aui.top-label .field-group>label {
   background: #222;
 }
 
-.jira-dialog-content form.aui .buttons-container, .tempo .tempo-timeframe-container .buttons-container .buttons, .jira-dialog .buttons-container {
+.jira-dialog-content form.aui .buttons-container, .tempo .tempo-timeframe-container .buttons-container .buttons, .jira-dialog .buttons-container, .dashboard-item-content {
   background: #333;
   border-top: 1px solid #666;
 }
@@ -462,10 +461,6 @@ body, table {
   background-color: #222 !important;
 }
 
-#content>header h1, #content>header h2 {
-  color: #ccc !important;
-}
-
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
   color: #ccc !important;
 }
@@ -478,16 +473,12 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
   background-color: #146 !important;
 }
 
-.dashboard-item-content {
-  background-color: #222 !important;
-}
-
 .tabwrap > .tabs.horizontal > li {
   background-color: transparent;
 }
-#issuetable, .issue-table, #issuetable > tbody, .issue-table > tbody {
-  background: #222 !important;
-  background-color: #222 !important;
+#issuetable, .issue-table, #issuetable > tbody, .issue-table > tbody, .dashboard-item-content {
+  background: #333 !important;
+  background-color: #333 !important;
 }
 
 #issuetable > tbody > tr, .issue-table > tbody > tr {
@@ -556,11 +547,11 @@ form.aui .password, form.aui .textarea, form.aui .select, form.aui .multi-select
   color: #ccc !important;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .ghx-readonly, .ghx-detail-issue, .ghx-name, .aui-dropdown2.aui-style-default a, .panelContent, .subnav-page-header, table.aui > tbody > tr {
   color: #ccc !important;
 }
 
-.panelContent {
+.panelContent, #dashboard {
   background-color: #222 !important;
 }
 
@@ -585,10 +576,6 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
   box-shadow: 0 1px 3px #222 inset;
 }
 
-#dashboard {
-  background-color: #333 !important;
-}
-
 .ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
   background-color: #292929;
   border-color: #666;
@@ -598,52 +585,83 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
   background-color: #222;
   box-shadow: -5px 0px 10px 5px #222;
 }
+  
+#ghx-plan, #ghx-report, #ghx-work {
+  border-top: 1px solid #666;
+}
 
-.ghx-issue,
-.ghx-content-group,
-.ghx-sprint-active,
-.ghx-backlog-group,
-.ghx-sprint,
-.ghx-done,
-.ghx-issue-content,
-.ghx-issue-compact,
-.ghx-end.ghx-row, 
-.ghx-end,
-.ghx-issue-compact.ghx-selected,
-.ghx-backlog-container,
-.ghx-backlog-container .ghx-everything-else,
-.ghx-issue-compact .ghx-end {
+#ghx-backlog, .ghx-backlog, .ghx-backlog-container, .ghx-issue {
   background: #222;
   background-color: #222;
+  color: #ccc;
+}
+  
+.ghx-issue {
+  border: 1px solid #666;
+}
+  
+.ghx-classification-item.ghx-selected {
   border-color: #666;
-  color: inherit;
+}
+  
+.ghx-version-expanded .ghx-classification-column, .ghx-epic-expanded .ghx-classification-column {
+  border-left: 1px solid #666;
+}
+
+.ghx-epic-expanded .ghx-version-column {
+  border-left: none;
+}
+  
+.ghx-classification-item:hover, .ghx-issue:hover {
+  background-color: #333;
+}
+
+.ghx-classification-item.ghx-selected, .ghx-issue.ghx-selected {
+  background-color: #333;
+  background: #333;
+}
+  
+.ghx-classification-item.ghx-selected:hover, .ghx-issue:hover.ghx-selected {
+  background-color: #444;
+  background: #444;
+}
+
+#ghx-backlog, .ghx-backlog {
+  border-left: 1px solid #666;
+}
+
+.ghx-backlog-container {
+  border: 1px solid #666;
+  border-left-color: #666;
+}
+
+.ghx-issue-compact, .ghx-issue-compact.ghx-selected {
+  background: #222;
+  color: #ccc;
+  border: 1px solid #666;
+}
+
+.ghx-issue-compact .ghx-end, .ghx-issue-compact.ghx-selected .ghx-end, .ghx-issue .ghx-end {
+  background: #222;
   box-shadow: none;
 }
 
-.ghx-issue-compact.ghx-selected .ghx-end, .ghx-issue-compact.ghx-selected, .ghx-issue-compact .ghx-selected-group {
-  background: #444 !important;
+.ghx-issue-compact.ghx-selected .ghx-end, .ghx-issue-compact.ghx-selected, .ghx-issue.ghx-selected .ghx-end, .ghx-issue-compact:hover, .ghx-issue-compact:hover .ghx-end, .ghx-issue:hover .ghx-end {
+  background: #333;
   box-shadow: none;
 }
 
-.ghx-issue.ghx-selected, .ghx-issue-compact.ghx-selected {
-  background-color: #666;
-  background: #666;
+.ghx-issue-compact.ghx-selected:hover, .ghx-issue-compact.ghx-selected:hover .ghx-end, .ghx-issue.ghx-selected:hover .ghx-end {
+  background: #444;
+  box-shadow: none;
+}
+  
+.ghx-ide-menu > li {
+  color: #ccc;
 }
 
-.ghx-issue-compact.ghx-selected, .ghx-issue-compact .ghx-selected-group {
-  background: #ccc;
-}
-
-.ghx-issue-compact:hover, .ghx-issue-compact:hover .ghx-end, .ghx-issue-compact.ghx-selected:hover .ghx-end, .ghx-issue-compact.ghx-flagged:hover .ghx-end, .ghx-issue-compact.ghx-flagged.ghx-selected:hover {
-  background-color: #303030 !important;
-  background: #303030 !important;
-  box-shadow: none !important;
-}
-
-.gadget .ghx-issue .ghx-end, .gadget .ghx-issue:hover .ghx-end, .ghx-issue .ghx-end, .ghx-issue.ghx-selected .ghx-end, .ghx-issue:hover .ghx-end, .ghx-issue.ghx-selected:hover .ghx-end, .ghx-issue.ghx-flagged:hover .ghx-end, .ghx-issue.ghx-flagged.ghx-selected:hover .ghx-end {
-  background-color: #303030 !important;
-  background: #303030 !important;
-  box-shadow: -4px 0px 3px transparent;
+.ghx-ide-menu > li:hover {
+  background: #333;
 }
 
 .ghx-tv-message {
@@ -655,10 +673,6 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
   background-image: linear-gradient(to right, #444 0px, #444 41px, #222 42px, #222 100%);
 }
 
-.ghx-detail-issue {
-  color: #ccc;
-}
-
 .ghx-detail-section .ghx-header h3 {
   background-color: #222;
 }
@@ -668,8 +682,12 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
 }
 
 .aui-badge {
-  background-color: rgba(0,0,0,0.6);
-  color: rgba(200, 200, 200, 0.8);
+  background-color: #111;
+  color: #ccc;
+}
+  
+.aui-badge.ghx-in-progress {
+  background: #846821;
 }
   
 .aui-avatar-inner img {
@@ -747,6 +765,16 @@ nav.aui-header {
 .aui-button.ghx-dropdown-trigger::after, .aui-buttons .aui-button.aui-button-primary.ghx-dropdown-trigger::after, .aui-button.aui-dropdown2-trigger:not(.aui-dropdown2-trigger-arrowless)::after {
 	border-top-color: #888;
 }
+  
+.ghx-dialog .aui-button[disabled], .ghx-dialog .aui-button[aria-disabled="true"], #gh .aui-button[disabled], #gh .aui-button[aria-disabled="true"] {
+  opacity: 0.5;
+}
+  
+.aui-button[disabled], .aui-button[disabled]:hover, .aui-button[disabled]:focus, .aui-button[disabled]:active, .aui-button[aria-disabled="true"], .aui-button[aria-disabled="true"]:hover, .aui-button[aria-disabled="true"]:focus, .aui-button[aria-disabled="true"]:active, .aui-button[aria-disabled="true"][aria-pressed] {
+  background: #444;
+  color: #ccc;
+  border-color: #666;
+}
 
 .content-container {
   border-style: none;
@@ -767,8 +795,9 @@ nav.aui-header {
   border: 1px solid #555;
 }
   
-.aui-dropdown2.aui-style-default a {
-  color: #ccc;
+table.aui > tbody > tr, table.aui > thead {
+  background: #222;
+  border-bottom: 1px solid #666;
 }
 
 .wiki-edit-toolbar {
