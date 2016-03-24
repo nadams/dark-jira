@@ -114,6 +114,11 @@ tr.rowHeader th a {
   border-right: none;
   border-top: none;
 }
+  
+.ghx-detail-view .text, .ghx-timetracking-inline-dialog-contents .text, .ghx-detail-view .password, .ghx-detail-view .select {
+  box-shadow: none;
+  border: 1px solid #666;
+}
 
 .saved-search-selector {
   background-color: #333 !important;
@@ -202,8 +207,22 @@ tr.rowHeader th a {
   background-color: #222;
   border-left-color: #666;
 }
+  
+.ghx-zone-cell {
+  background: #444;
+}
 
-form.aui.top-label .field-group>label {
+.ghx-target-hover, .ghx-zone-row.ghx-target-hover .ghx-zone-cell {
+  background-color: #555;
+}
+
+#ghx-column-header-group.ghx-fixed, .ghx-column-headers .ghx-column.ghx-target-option, .ghx-column-headers .ghx-column.ghx-target-option.ghx-target-hover {
+  background: #333;
+}
+
+form.aui.top-label .field-group>label,
+.aui .checkbox > label,
+.aui .radio > label {
   color: #ccc !important;
 }
 
@@ -282,8 +301,13 @@ form.aui.top-label .field-group>label {
 }
 
 .tempo .tempo-stalker-content.stalker-content.issue-header-content .aui-page-header,
-.tempo .stalker .command-bar .aui-navgroup.aui-navgroup-horizontal.tempo-top-nav {
+.tempo .stalker .command-bar .aui-navgroup.aui-navgroup-horizontal.tempo-top-nav,
+.aui-page-panel {
   background: #222;
+}
+  
+.aui-page-panel {
+  border: 1px solid #666;
 }
 
 .aui-navgroup-horizontal {
