@@ -228,6 +228,16 @@ form.aui.top-label .field-group>label,
 .aui-dialog .dialog-button-panel button.button-panel-button {
   text-shadow: unset;
 }
+.aui-message.warning, .aui-message-warning {
+  background: #333;
+  border-color: #555;
+}
+.aui-message.warning::before, .aui-message-warning::before {
+  border-color: #c0a152;
+}
+.aui-message.warning::after, .aui-message-warning::after {
+  color: #202020;
+}
 .aui-dialog {
   background: #333;
   border: 1px solid #666;
@@ -269,8 +279,7 @@ form.aui.top-label .field-group>label,
   background: #333;
   background-color: #333;
   color: #ccc !important;
-}
-  
+} 
 .aui-button[aria-pressed="true"], .aui-buttons .aui-button[aria-pressed="true"], .aui-buttons .aui-button.aui-button-primary[aria-pressed="true"], .aui-buttons .aui-button.aui-button-subtle[aria-pressed="true"], .operations > li a:hover {
   background: -webkit-linear-gradient(top,#111 0,#222 100%);
   background: -o-linear-gradient(top,#111 0,#222 100%);
