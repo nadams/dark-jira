@@ -225,6 +225,17 @@ form.aui.top-label .field-group>label,
 .aui .radio > label {
   color: #ccc !important;
 }
+.aui-lozenge-complete.aui-lozenge-subtle, .aui-lozenge-error.aui-lozenge-subtle {
+  background-color: #333;
+  border-color: #666;
+  
+}
+.aui-lozenge-complete.aui-lozenge-subtle {
+  color: #6993bf;
+}
+.aui-lozenge-error.aui-lozenge-subtle {
+  color: #ab534b;
+}
 .aui-dialog .dialog-button-panel button.button-panel-button {
   text-shadow: unset;
 }
@@ -731,6 +742,10 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
 .ghx-issue-compact.ghx-selected:hover, .ghx-issue-compact.ghx-selected:hover .ghx-end, .ghx-issue.ghx-selected:hover .ghx-end {
   background: #444;
   box-shadow: none;
+}
+  
+.ghx-agile .gh-shorten .gh-shortener-expand:hover, .ghx-agile .gh-shorten .gh-shortener-collapse:hover, .ghx-agile .gh-shorten .gh-shortener-expand:focus, .ghx-agile .gh-shorten .gh-shortener-collapse:focus {
+  background-color: #444;
 }
   
 .ghx-ide-menu > li {
