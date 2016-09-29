@@ -2,6 +2,10 @@ body, table, navigator-body {
   color: #ccc !important;
   background: #111 !important;
 }
+  
+blockquote {
+  border-left: 1px solid #3c78b5;
+}
 
 #descriptionArea {
   color: #FFF !important;
@@ -90,18 +94,18 @@ tr.rowHeader th a {
 }
 
 .page-type-split .navigator-group {
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 .issue-list>li.focused {
-  background-color: #444 !important;
-}
-
-#issue-content {
   background-color: #333 !important;
 }
 
-.ghx-content-container, #ghx-pool, #ghx-column-header-group.ghx-fixed, .ghx-column-headers .ghx-column {
+#issue-content {
+  background-color: #222 !important;
+}
+
+.ghx-content-container, #ghx-pool, #ghx-column-header-group.ghx-fixed, .ghx-column-headers .ghx-column, .ghx-marker {
   background-color: #333;
 }
 
@@ -121,7 +125,7 @@ tr.rowHeader th a {
 }
 
 .saved-search-selector {
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 #search-header-view .header-section-primary h1 {
@@ -138,7 +142,7 @@ tr.rowHeader th a {
 }
 
 .navigator-search {
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 .split-view #stalker, .split-view .issue-header {
@@ -150,11 +154,11 @@ tr.rowHeader th a {
 }
 
 .issue-header .issue-header-content>.command-bar {
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 .issue-header .issue-header-content {
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 .issue-header.detached {
@@ -189,7 +193,7 @@ tr.rowHeader th a {
 }
 
 .issue-body-content .module>.mod-header>h1, .issue-body-content .module>.mod-header>h2, .issue-body-content .module>.mod-header>h3, .issue-body-content .module>.mod-header>h4, .issue-body-content .module>.mod-header>h5, .issue-body-content .module>.mod-header>h6 {
-  background-color: #333 !important;
+  background-color: #222 !important;
   color: #ccc !important;
 }
 
@@ -366,8 +370,12 @@ form.aui.top-label .field-group>label,
   border-bottom: 1px solid #666;
 }
 
-.aui-navgroup-horizontal .aui-nav > li a:hover, .aui-navgroup-vertical .aui-nav > li > a:hover, .aui-nav-vertical > li > a:hover {
+.aui-navgroup-horizontal .aui-nav > li a:hover, .aui-navgroup-vertical .aui-nav > li > a:hover, .aui-nav-vertical > li > a:hover, .aui-navgroup-horizontal {
   background-color: #333 !important;
+}
+
+.aui-navgroup-horizontal {
+  border-top: 1px solid #666;
 }
 
 .aui-navgroup-horizontal .aui-nav>li a, .aui-navgroup-vertical .aui-nav>li>a, .aui-nav-vertical>li>a {
@@ -520,7 +528,7 @@ form.aui.top-label .field-group>label,
   color: #ccc !important;
 }
 
-pre, code {
+pre, code, .wiki-edit-content.previewClass {
   background-color: #444 !important;
   color: #ccc !important;
 }
@@ -545,6 +553,10 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
   color: #ccc !important;
 }
 
+div.wiki-edit .panel {
+  border: 1px solid #666;
+}
+  
 .dashboard-item-header {
   background-color: #146 !important;
 }
@@ -1007,4 +1019,55 @@ div.calendar, .calendar {
 }
 .calendar td.time span, .calendar td.time .colon {
   background-color: #222;
+}
+.ghx-swimlane-header .ghx-bandaid {
+  background-color: inherit;
+  box-shadow: none;
+}
+.ghx-swimlane-header.ghx-selected, .ghx-swimlane-header.ghx-selected:after {
+	background-color: inherit;
+    box-shadow: none;
+}
+.two-d-container table.aui tbody .totals {
+  /*background-color: inherit;*/
+}
+table.aui>tbody>tr>th {
+	color: inherit;
+}
+.two-d-container table.aui tbody .totals {
+	background-color: #222;
+}
+table.aui.aui-table-interactive>tbody>tr:hover {
+	background-color: #3a3a3a;
+}
+.operations>li {
+    background-color: #888 !important;
+}
+.operations>li, .operations>li:focus, .operations>li:hover {
+	color: #fff;
+}
+
+.aui-button[aria-pressed="true"], .aui-buttons .aui-button[aria-pressed="true"], .aui-buttons .aui-button.aui-button-primary[aria-pressed="true"], .aui-buttons .aui-button.aui-button-subtle[aria-pressed="true"], .operations > li a:hover {
+	background: #555;
+}
+.details-layout .split-view .list-results-panel {
+	border-right-color: #666;
+}
+.details-layout .split-view .list-results-panel .count-pagination {
+	border-top-color: #666;
+}
+.details-layout .split-view .list-results-panel .list-panel .issue-list>li {
+	border-bottom-color: #666;
+}
+.navigator-sidebar {
+	border-right: 1px solid #666;
+}
+.filter-panel-section {
+	border-top: 1px solid #666;
+}
+.filter-list>li:hover, .filter-list>li.hover {
+	background-color: #363636;
+}
+.aui-button.aui-button-light, a.aui-button.aui-button-light, .aui-button:visited.aui-button-light {
+	background-color: #333;
 }
