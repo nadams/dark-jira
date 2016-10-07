@@ -1071,3 +1071,7 @@ table.aui.aui-table-interactive>tbody>tr:hover {
 .aui-button.aui-button-light, a.aui-button.aui-button-light, .aui-button:visited.aui-button-light {
 	background-color: #333;
 }
+.ghx-swimlane-header.ghx-selected .ghx-bandaid {
+  background-color: inherit;
+  box-shadow: none;
+}
