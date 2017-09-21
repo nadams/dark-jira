@@ -243,7 +243,7 @@ form.aui.top-label .field-group>label,
 .aui-dialog .dialog-button-panel button.button-panel-button {
   text-shadow: unset;
 }
-.aui-message.warning, .aui-message-warning {
+.aui-message.warning, .aui-message-warning, .aui-message.error, .aui-message-error {
   background: #333;
   border-color: #555;
 }
@@ -1071,7 +1071,17 @@ table.aui.aui-table-interactive>tbody>tr:hover {
 .aui-button.aui-button-light, a.aui-button.aui-button-light, .aui-button:visited.aui-button-light {
 	background-color: #333;
 }
-.ghx-swimlane-header.ghx-selected .ghx-bandaid {
-  background-color: inherit;
-  box-shadow: none;
+  .ghx-swimlane-header.ghx-selected .ghx-bandaid {
+    background-color: inherit;
+    box-shadow: none;
+  }
+  
+.navigator-content, .contained-content {
+	background-color: #222;
+}
+#issuetable tr.focused, .issue-table tr.focused {
+	background-color: #333;
+}
+.aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox, .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio, .aui-dropdown2.aui-style-default:hover a {
+  background-color: #222;
 }
