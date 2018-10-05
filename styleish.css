@@ -1085,3 +1085,22 @@ table.aui.aui-table-interactive>tbody>tr:hover {
 .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox, .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio, .aui-dropdown2.aui-style-default:hover a {
   background-color: #222;
 }
+.ghx-issue-compact.ghx-selected.ghx-flagged, .ghx-issue-compact .ghx-selected-group.ghx-flagged, .ghx-issue-compact.ghx-flagged.ghx-selected .ghx-end {
+  background: #39321d;
+}
+.ghx-issue-compact.ghx-flagged.ghx-selected .ghx-end {
+  -webkit-box-shadow: -4px 0 3px #39321d;
+  box-shadow: -4px 0 3px #39321d;
+  -webkit-box-shadow: -4px 0 3px #ffd351,0 -3px 3px #ffd351;
+  box-shadow: -4px 0 3px #39321d,0 -3px 3px #39321d;
+}
+.ghx-issue-compact.ghx-selected:hover, .ghx-issue-compact.ghx-selected:hover .ghx-end, .ghx-issue.ghx-selected:hover .ghx-end {
+  background: #453c23;
+}
+.ghx-issue-compact.ghx-flagged:hover .ghx-end, .ghx-issue-compact.ghx-flagged.ghx-selected:hover .ghx-end {
+  background: #453c23;
+  -webkit-box-shadow: -4px 0 3px #453c23;
+  box-shadow: -4px 0 3px #453c23;
+  -webkit-box-shadow: -4px 0 3px #ffd351,0 -3px 3px #ffd351;
+  box-shadow: -4px 0 3px #453c23,0 -3px 3px #453c23;
+}
