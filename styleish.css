@@ -358,7 +358,7 @@ form.aui.top-label .field-group>label,
 
 .tempo .tempo-stalker-content.stalker-content.issue-header-content .aui-page-header,
 .tempo .stalker .command-bar .aui-navgroup.aui-navgroup-horizontal.tempo-top-nav,
-.aui-page-panel {
+.aui-page-panel, #ghx-report-scrollarea {
   background: #222;
 }
   
@@ -785,8 +785,8 @@ form.aui .text, form.aui .password, form.aui .textarea, form.aui .select, form.a
   background: #555;
 }
 
-.aui-badge {
-  background-color: #111;
+.aui-badge, aui-badge {
+  background: #111;
   color: #ccc;
 }
   
@@ -1071,11 +1071,10 @@ table.aui.aui-table-interactive>tbody>tr:hover {
 .aui-button.aui-button-light, a.aui-button.aui-button-light, .aui-button:visited.aui-button-light {
 	background-color: #333;
 }
-  .ghx-swimlane-header.ghx-selected .ghx-bandaid {
-    background-color: inherit;
-    box-shadow: none;
-  }
-  
+.ghx-swimlane-header.ghx-selected .ghx-bandaid {
+  background-color: inherit;
+  box-shadow: none;
+}
 .navigator-content, .contained-content {
 	background-color: #222;
 }
@@ -1085,6 +1084,24 @@ table.aui.aui-table-interactive>tbody>tr:hover {
 .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox, .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio, .aui-dropdown2.aui-style-default:hover a {
   background-color: #222;
 }
-.aui-message.hint, .aui-message-hint, .aui-message.info, .aui-message-info {
+.aui-message.hint, .aui-message-hint, .aui-message.info, .aui-message-info, .aui-message.error {
   color: #ccc;
+}
+.issue-body-content .module > .mod-header, .ghx-detail-section .ghx-header {
+  background-image: none;
+}
+.tdtRr {
+  background: transparent;
+}
+html:not(.msie) .ghx-sprint-active .ghx-backlog-header.stuck, html:not(.msie) .ghx-sprint-planned .ghx-backlog-header.stuck, html.edge .ghx-sprint-active .ghx-backlog-header.stuck, html.edge .ghx-sprint-planned .ghx-backlog-header.stuck, .stuck-bottom, .stuck {
+  background-color: #222;
+}
+.ghx-sprint-meta .complete-sprint-container .disabled {
+  color: #828282;
+}
+table.aui.ghx-hover-highlight tbody tr:hover {
+  background-color: #333;
+}
+#dashboard > .vertical.tabs, #dashboard > #dashboard-content, #dashboard-content > .aui-page-header {
+  background: #111;
 }
