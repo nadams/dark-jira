@@ -14,8 +14,12 @@ blockquote {
   border: 1px solid #666 !important;
 }
 
-#descriptionArea li {
+#descriptionArea li, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:link, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:visited, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:focus, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:hover, .aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a:active, .aui-navgroup-horizontal .aui-nav > li a, .aui-navgroup-vertical .aui-nav > li > a, .aui-nav-vertical > li > a {
   color: #ccc !important;
+}
+
+.aui-tabs > .tabs-menu .menu-item a, .aui-tabs > .tabs-menu .menu-item a:link, .aui-tabs > .tabs-menu .menu-item a:visited {
+  color: #888 !important;
 }
 
 p {
@@ -167,7 +171,7 @@ tr.rowHeader th a {
 
 #issue-comment-add #comment {
   color: #ccc !important;
-  background-color: #333 !important;
+  background-color: #222 !important;
 }
 
 .issue-data-block.collapsed, .collapsed-comments, .issue-data-block:hover {
@@ -243,7 +247,7 @@ form.aui.top-label .field-group>label,
 .aui-dialog .dialog-button-panel button.button-panel-button {
   text-shadow: unset;
 }
-.aui-message.warning, .aui-message-warning, .aui-message.error, .aui-message-error {
+.aui-message.warning, .aui-message-warning, .aui-message.error, .aui-message-error, .aui-message {
   background: #333;
   border-color: #555;
 }
@@ -288,7 +292,7 @@ form.aui.top-label .field-group>label,
   text-shadow: 0 1px 0 black;
   color: #ccc !important;
 }
-.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover, .aui-button, a.aui-button, .aui-button:visited, .aui-button:active, .aui-button.active, .aui-header .aui-button-split-more.active, .aui-button-subtle.aui-button:active, .aui-button-subtle.aui-button.active, .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle.active, .operations > li a, .aui-dialog .dialog-button-panel button.button-panel-button{
+.aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover, .aui-button, a.aui-button, .aui-button:visited, .aui-button:active, .aui-button.active, .aui-header .aui-button-split-more.active, .aui-button-subtle.aui-button:active, .aui-button-subtle.aui-button.active, .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle.active, .operations > li a, .aui-dialog .dialog-button-panel button.button-panel-button, .aui-button.aui-button-primary[disabled], .aui-button.aui-button-primary[disabled]:hover, .aui-button.aui-button-primary[disabled]:focus, .aui-button.aui-button-primary[disabled]:active, .aui-button.aui-button-primary[aria-disabled="true"], .aui-button.aui-button-primary[aria-disabled="true"]:hover, .aui-button.aui-button-primary[aria-disabled="true"]:focus, .aui-button.aui-button-primary[aria-disabled="true"]:active {
   border: 1px solid #555;
   border-color: #555;
   background: #333;
@@ -300,7 +304,7 @@ form.aui.top-label .field-group>label,
   background: -o-linear-gradient(top,#111 0,#222 100%);
   background: linear-gradient(to bottom,#111 0,#222 100%);
 } 
-.aui-button:focus, .aui-button:hover, .aui-button-subtle.aui-button:focus, .aui-button-subtle.aui-button:hover, .aui-buttons .aui-button:focus:not(.aui-button-primary), .aui-buttons .aui-button:hover:not(.aui-button-primary), .aui-buttons .aui-button:active:not(.aui-button-primary), .operations > li a, .aui-dialog .dialog-button-panel button.button-panel-button:focus, .aui-dialog .dialog-button-panel button.button-panel-button:hover, .aui-dialog .dialog-button-panel button.button-panel-button:active {
+.aui-button:focus, .aui-button:hover, .aui-button-subtle.aui-button:focus, .aui-button-subtle.aui-button:hover, .aui-buttons .aui-button:focus:not(.aui-button-primary), .aui-buttons .aui-button:hover:not(.aui-button-primary), .aui-buttons .aui-button:active:not(.aui-button-primary), .operations > li a, .aui-dialog .dialog-button-panel button.button-panel-button:focus, .aui-dialog .dialog-button-panel button.button-panel-button:hover, .aui-dialog .dialog-button-panel button.button-panel-button:active, .aui-toolbar .aui-dropdown2-trigger.toolbar-trigger.active, .aui-toolbar .toolbar-splitbutton:hover .toolbar-trigger, .aui-toolbar .toolbar-group .toolbar-trigger:focus, .aui-toolbar .toolbar-group .toolbar-trigger:hover, .aui-toolbar .toolbar-group button:focus, .aui-toolbar .toolbar-group button:hover, .aui-toolbar .aui-dd-parent .aui-dd-trigger:focus, .aui-toolbar .aui-dd-parent .aui-dd-trigger:hover, .aui-toolbar .toolbar-group .active .toolbar-trigger:hover, .aui-button, a.aui-button, .aui-button:visited, .aui-button:active, .aui-button.active, .aui-header .aui-button-split-more.active, .aui-button-subtle.aui-button:active, .aui-button-subtle.aui-button.active, .aui-button.aui-button-subtle.aui-dropdown2-trigger:hover, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle.active, .operations > li a, .aui-dialog .dialog-button-panel button.button-panel-button, .aui-button.aui-button-primary[disabled], .aui-button.aui-button-primary[disabled]:hover, .aui-button.aui-button-primary[disabled]:focus, .aui-button.aui-button-primary[disabled]:active, .aui-button.aui-button-primary[aria-disabled="true"], .aui-button.aui-button-primary[aria-disabled="true"]:hover, .aui-button.aui-button-primary[aria-disabled="true"]:focus, .aui-button.aui-button-primary[aria-disabled="true"]:active {
   background: #444;
   background-color: #444;
   color: inherit !important;
@@ -1104,4 +1108,25 @@ table.aui.ghx-hover-highlight tbody tr:hover {
 }
 #dashboard > .vertical.tabs, #dashboard > #dashboard-content, #dashboard-content > .aui-page-header {
   background: #111;
+}
+.aui-button:focus, .aui-button:hover, .aui-button-subtle.aui-button:focus, .aui-button-subtle.aui-button:hover {
+  color: #666 !important;
+}
+form.aui .jira-wikifield ~ .save-options.wiki-button-bar, .sd-rte-bar {
+  background: #333;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu > .menu-item.active-tab a::after {
+  background: #aaa;
+}
+form.aui .jira-wikifield ~ .save-options.wiki-button-bar, .sd-rte-bar, .wiki-edit-content .wiki-editor-initialised.wiki-edit-wrapped {
+  border: 1px solid #666;
+  background: #333;
+}
+.richeditor-cover ~ .rte-container:not(:empty) {
+  border: 1px solid #666;
+  border-top: none;
+}
+aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .aui-inline-dialog-contents, aui-inline-dialog .contents, .aui-inline-dialog .contents {
+  background: #222;
+  border: 1px solid #666;
 }
