@@ -1130,3 +1130,12 @@ aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .aui-inline-di
   background: #222;
   border: 1px solid #666;
 }
+.tuiDialog {
+  background-color: #333;
+}
+body#tinymce table td, body#tinymce table td {
+    color: #ccc;
+}
+th.confluenceTh {
+    color: #333;
+}
