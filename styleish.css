@@ -1139,3 +1139,44 @@ body#tinymce table td, body#tinymce table td {
 th.confluenceTh {
     color: #333;
 }
+.fd-highlight-keywords {
+  background-color: #444;
+  border: 1px solid #555;
+}
+.links-list dd:hover {
+  background-color: #333;
+}
+.issue-list > li .splitview-issue-link .issue-link-summary {
+    color: inherit;
+}
+form#issue-filter .check-list-item.active, form.aui .check-list-item.active, .check-list-item.active, .check-list-group-footer.active {
+    background-color: inherit;
+}
+.split-view .list-results-panel .count-pagination {
+    background-color: inherit;
+}
+.simple-issue-list .inline-issue-create-container {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+.issue-search > .aui-page-header {
+    border-bottom: 1px solid #555;
+}
+.ui-sidebar {
+    background-color: #555;
+}
+#jira-issue-sidebar {
+    background-color: inherit;
+}
+.aui-tabs.horizontal-tabs > .tabs-menu::after {
+    background: #555;
+}
+.ghx-issuetable td.assignee > a {
+    color: #3b73af;
+}
+.ghx-issuetable .issuerow:hover {
+    background-color: #333;
+}
+.ghx-issuetable .issue_actions a.aui-dd-link:hover, .ghx-issuetable .issue_actions a.aui-dd-link.active {
+    background-color: inherit;
+}
